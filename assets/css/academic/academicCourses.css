@@ -1,24 +1,26 @@
 .academic__courses {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 .academic__courses__box {
-    width: 20%;
+    display: flex;
+    
 }
 
 .academic__courses__item__img {
     background-color: #fff;
-    padding: 2rem;
-    width: 100%;
-    position: relative;
+    align-items: center;
+    display: flex;
+    height:20vh;
 }
 
 .academic__courses__item__img img {
-    width: 90%;
-    margin: auto;
-    display: block;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    height: 15vh;
 }
 
 .academic__courses__item__title h4,
